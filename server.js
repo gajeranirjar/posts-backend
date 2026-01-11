@@ -19,5 +19,5 @@ app.get("/" , (req , res) => {
 
 app.use('/api/posts' , require("./routes/postRoute"))
 
-const PORT = process.env.PORT || 1800 ;
+const PORT = process.env.PORT || 1801 ;
 app.listen(PORT , () => console.log(`Server Listening On Port :: ${PORT}`))
